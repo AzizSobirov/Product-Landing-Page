@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://aziz-sobirov.github.io/AS-library/css/as.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Product Landing Page</title>
+</head>
+<body onload="as_onload()">
+    <!-- as onload -->
+    <div id="as_load"></div>
+
+    <!-- as navbar -->
+    <div id="as_navbar"></div>
+
+    <!-- as error -->
+    <div id="as_error"></div>
+
+    <!-- header of page -->
+    <header class="head" id="home">
+        <div class="head_text">
+            <h3>Look Stylish Be Stylish.</h3>
+            <h2>Look Stylish Be Stylish</h2>
+            <p>Before starting this business you should have ideas about the market and products to Compete with the Existing Businesses.</p>
+            <div id="as_btn"><a href="#">Join Shop</a></div>
+        </div>
+        <div class="head_img">
+            <img src="./img/image.png" alt="">
+            <img src="./img/background-image.png" alt="">
+        </div>
+    </header>
+
+    <!-- section one -->
+    <section class="sec1" id="feature">
+        <ul>
+            <li><a href="#">Water resistant</a></li>
+            <li class="active"><a href="#">Charging system</a></li>
+            <li><a href="#">Artificial leather</a></li>
+            <li><a href="#">Modern clothes</a></li>
+        </ul>
+        <div class="sec1_bags">
+            <div class="bag"><img src="./img/bags/bag1.png" alt=""></div>
+            <div class="bag"><img src="./img/bags/bag2.png" alt=""></div>
+            <div class="bag"><img src="./img/bags/bag3.png" alt=""></div>
+            <div class="bag"><img src="./img/bags/bag4.png" alt=""></div>
+        </div>
+    </section>
+
+    <!-- section two -->
+    <section class="sec2" id="about">
+        <div class="sec2_img">
+            <img src="./img/sec2-img.png" alt="">
+        </div>
+        <div class="sec2_text">
+            <h3>Creative bag only for you.</h3>
+            <h2>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div id="as_btn"><a href="#">See More</a></div>
+        </div>
+    </section>
+
+    <!-- section three -->
+    <section class="sec3" id="product">
+        <div class="sec3_text">
+            <h2>Our available product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="sec3_bags"></div>
+        <h3>See More <i class="far fa-arrow-right"></i></h3>
+    </section>
+
+    <!-- section four -->
+    <section class="sec4" id="shop-btn">
+        <div class="sec4_form">
+            <div class="img"></div>
+            <ul>
+                <li><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, odio?</h3></li>
+                <li><input type="text" placeholder="Name"><input type="email" placeholder="Email"></li>
+                <li><input type="text" placeholder="Address"></li>
+                <span>
+                    <input type="checkbox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div id="as_btn"><a href="#">Join Now</a></div></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- section five -->
+    <section class="sec5">
+        <img src="./img/company/Company logo.png" alt="">
+        <img src="./img/company/Company logo (1).png" alt="">
+        <img src="./img/company/Company logo (2).png" alt="">
+        <img src="./img/company/Company logo (3).png" alt="">
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <ul>
+            <li><h2>Bag</h2>
+                <p>This Landing page Created by Aziz Sobirov</p>
+            </li>
+            <li>
+                <h3>Special catagories</h3>
+                <a href="#">Water resistant</a>
+                <a href="#">Charging system</a>
+                <a href="#">Artificial leather</a>
+            </li>
+            <li>
+                <h3>Contact us</h3>
+                <a href="#">+998 33 077 2021</a>
+                <a href="#">azizwebdev@yandex.com</a>
+                <a href="#">https://sobirov.netlify.app</a>
+            </li>
+            <li>
+                <h3>News latter</h3>
+                <input type="email" placeholder="Enter Your Email">
+                <div id="as_btn" onclick="document.getElementById('as_error404').style.display='flex';">
+                    <a href="#">Subscribe</a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://aziz-sobirov.github.io/AS-library/js/anime-min.js"></script>
+    <script src="https://aziz-sobirov.github.io/AS-library/js/as.js"></script>
+</body>
+</html>
